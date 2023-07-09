@@ -19,10 +19,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.example.appcompose.hyperlink.HyperlinkText
 
 @Composable
-
 fun SimpleBottomAppBar() {
     Column( horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
@@ -42,7 +40,5 @@ fun SimpleBottomAppBar() {
             }
         }
     }
-
-}
-
+   }
 }
