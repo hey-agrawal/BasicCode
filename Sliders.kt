@@ -11,7 +11,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 
 @Composable
-fun SliderSample(){
+fun Slider(){
     Column() {
         var sliderPosition by remember { mutableStateOf(0f) }
         Text(text = sliderPosition.toString())
