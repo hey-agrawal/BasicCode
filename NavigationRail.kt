@@ -26,7 +26,7 @@ fun NavigationRailSample(){
         modifier = Modifier
             .fillMaxSize()) {
         var selectedItem by remember { mutableStateOf(0) }
-        val items = listOf(",enu", "Search", "Settings")
+        val items = listOf("Menu", "Search", "Settings")
         val icons = listOf(Icons.Filled.Menu, Icons.Filled.Search, Icons.Filled.Settings)
         NavigationRail {
             items.forEachIndexed { index, item ->
